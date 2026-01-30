@@ -1,0 +1,3 @@
+1001:520:Dr.Oliver Brown – Cardiologist:2025-12-01:Cough:Infection:Antibiotics:Amoxicillin :In Progress
+1059:296:Dr.Amelia Wright – Dermatologist:2025-02-12:Cough:Infection:Antibiotics:Amoxicillin:Completed
+1549:512:Dr.Emily Parker – Pediatrician:2026-01-30:Fever:Injuries:Antibiotics:Amocixillin 250g:Pending

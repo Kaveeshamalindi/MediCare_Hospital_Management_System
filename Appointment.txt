@@ -1,0 +1,5 @@
+20031:45512:bbbb:2003-02-19:23.01:Routine check-up:Pending:Go to room 12
+56899:655:dvdv:2003-02-25:sdv:Consultation:Confirmed:vsdfv
+1000:569:ffffff:2026-05-23:11.30:Lab test:Pending:Brings your reports
+102:523:aaaaa:2026-03-02:12.10:Routine check-up:Rescheduled:Brings your reports
+1023:526:ccccc:2026-02-10:5.20:Routine check-up:Confirmed:Brings your test reports

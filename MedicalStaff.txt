@@ -1,0 +1,8 @@
+5698:gvsdgv:Female:56932:OPD:2001-02-05:86523333333:Day Shift:MBBS:Doctor
+5698:gvsdgv:Male:56932:General Medicine:2001-02-05:86523333333:Evening:Diploma in Nursing:Doctor
+5698:gvsdgv:Male:56932:General Medicine:2001-02-05:86523333333:Evening:Diploma in Nursing:Doctor
+100:gvsdgv:Male:56932:General Medicine:2001-02-05:86523333333:Evening:Diploma in Nursing:Doctor
+100:gvsdgv:Male:56932:General Medicine:2001-02-05:86523333333:Evening:Diploma in Nursing:Nurse
+5698:gvsdgv:Male:56932:Emergency Department:2001-02-05:86523333333:Day Shift:MBBS:Doctor
+502:lll:Female:5689:OPD:2003-02-25:8956:Day Shift:MBBS:Doctor
+503:aaa:Female:25963:OPD:2003-01-26:8956:Day Shift:MBBS:Doctor

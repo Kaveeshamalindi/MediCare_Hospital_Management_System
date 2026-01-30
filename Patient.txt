@@ -1,0 +1,4 @@
+1032:Kaveesha:Senarathne:2003-03-02:Male:789562365:758964856:kaveeshasenarathne@gmail.com:Colombo:521:2025-11-23:AB+:Drug Allergies:Government Health Insurance
+5689:Akila:Senarathne:1997-06-30:Female:78956321:789653236:akilasenarathne@gmail.com:Aniwatte:527:2026-01-06:O+:Food:Private
+5623:Dil:sha:2001-05-26:Female:789562313:789562316:dilsha@gmail.com:Kandy:589:2026-01-05:AB-:Skin:Government
+1006:Malee:Senarathne:2003-02-15:Female:789562365:758964856:kaveeshasenarathne@gmail.com:Peradeniya:596:2025-11-23:AB-:Drug Allergies:Government Health Insurance
