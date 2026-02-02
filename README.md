@@ -32,6 +32,14 @@ Encapsulation refers to wrapping data and methods into a class. The variables of
 
 Polymorphism refers to the idea of having many forms. This project uses method overriding and overloading. 
 
+## User Manual
+
+The system consists of a user manual to understand how to correctly use the system. That avoids user confusion. That provides system screenshots and demonstrates videos to enhance user experience. Those allow step-by-step guidance for users.
+
+## Test Document
+
+That includes the test plan, test cases and test results with explanations. The test document proves the system works accurately and reliably. That supports verifying that all the functions work correctly.  
+
 ## Conclusion
 
 The document successfully represented the expected tasks, including the principle of Object-Oriented Programming concept (OOP), main functionalities of the system with proper explanation, a user-friendly manual and a test document.
