@@ -12,6 +12,16 @@ Java is used for Object-Oriented Programming. That style is closer to the real-w
 
 Objects have characteristics which are used to describe them. These characteristics are known as attributes. An attribute defines the current state of an object. 
 
+In this system, P is an object of the Patient class. This object contains patient-specific data.
+```
+Patient p=new Patient(pID, firstName, lastName, dateOfBirth,gender, contactNumber, emergencyContact, email, address, patientID, registrationDate, bloodGroup,nallergies, insuranceInfo);
+```
+Moreover, the code below represents a data handler object in the DoctorProfile JFrame Form. object dfDB is created from the DoctorFileDB class, which is used for handling patient-related data operations using file handling techniques. 
+
+```
+dfDB=new DoctorFileDB();
+```
+
 ### Class
 
 Classes can be described as a blueprint for an object.
