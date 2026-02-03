@@ -26,6 +26,12 @@ dfDB=new DoctorFileDB();
 
 Classes can be described as a blueprint for an object.
 
+```
+public class Appointment {
+	//class variables and methods
+}
+```
+
 ### Abstraction
 
 Data abstraction provides an essential feature to the outside without including implementation details. For example, abstraction is used in the Person abstract class. 
