@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The system is developed using a three-tier (3D) architecture, which is organized into User, Hospital and Data. The User package includes graphical user interfaces. That provides a high-level level user-friendly experience for users. The Hospital package contains object-oriented classes, including Administrator, Appointment, Bill, Doctor, Lab, MedicalRecord, MedicalStaff, Patient, Person, and Staff. The Data package is responsible for file handling. However, that provides benefits including faster development, improved scalability, reliability and security in the system 
+The system is developed using a three-tier (3D) architecture, which is organized into User, Hospital and Data. The User package includes graphical user interfaces. That provides a high-level user-friendly experience for users. The Hospital package contains object-oriented classes, including Administrator, Appointment, Bill, Doctor, Lab, MedicalRecord, MedicalStaff, Patient, Person, and Staff. The Data package is responsible for file handling. However, that provides benefits including faster development, improved scalability, reliability and security in the system 
 
 ## Application of Object-Oriented Programming
 
@@ -36,17 +36,47 @@ public class Appointment {
 
 Data abstraction provides an essential feature to the outside without including implementation details. For example, abstraction is used in the Person abstract class. 
 
+```
+public abstract class Person {
+	//abstract class variables and methods
+}
+```
+
 ### Inheritance
 
 Inheritance is the process that is used to gain properties (variables and methods) from one class to another. It provides to manage information in hierarchical order. The class inheriting the properties of another is the subclass, and the class whose properties are inherited is the superclass.
+
+```
+public class Administrator extends Person {
+	//subclass variables and methods
+}
+```
 
 ### Encapsulation
 
 Encapsulation refers to wrapping data and methods into a class. The variables of one class will be hidden from the other classes and accessible only through the methods of the current class. That is called data hiding. To achieve encapsulation in this project, declare the class’s variable as private and provide public setter and getter methods to modify and view the variable’s values. 
 
+```
+private int personID;
+public int getPersonID() {
+        return personID;
+}
+public void setPersonID(int personID) {
+        this.personID = personID;
+}  
+```
+
 ### Polymorphism
 
 Polymorphism refers to the idea of having many forms. This project uses method overriding and overloading. 
+
+In overriding, a subclass can implement a superclass method based on its requirements. That is called run-time polymorphism.
+
+```
+public interface IDoctor {
+    public abstract boolean addDoctor(Doctor d);
+}
+```
 
 ## User Manual
 
