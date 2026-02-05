@@ -78,6 +78,19 @@ public interface IDoctor {
 }
 ```
 
+In the IDoctor interface, the abstract method IDoctor was used to hide information, and DoctorFileDB implemented it. 
+
+```
+public class DoctorFileDB implements IDoctor {
+	//database implementation
+}
+@Override
+public boolean addDoctor(Doctor d) {
+       //File Handling code with try-catch block    
+}
+}
+```
+
 ## User Manual
 
 The system consists of a user manual to understand how to correctly use the system. That avoids user confusion. That provides system screenshots and demonstrates videos to enhance user experience. Those allow step-by-step guidance for users.
