@@ -84,10 +84,11 @@ In the IDoctor interface, the abstract method IDoctor was used to hide informati
 public class DoctorFileDB implements IDoctor {
 	//database implementation
 }
+```
+````
 @Override
 public boolean addDoctor(Doctor d) {
        //File Handling code with try-catch block    
-}
 }
 ```
 
