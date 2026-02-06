@@ -90,6 +90,23 @@ public boolean addDoctor(Doctor d) {
        //File Handling code with try-catch block    
 }
 ```
+## Main Functions
+
+The system consists of login portals, main role portals, menu bars, and data input interfaces. That supports users to work easily on the MediCare Hospital Management System. 
+
+### System Login
+
+The system offers separate user login options, including portals for doctors, nurses, lab technicians, and administrators. That ensures the system is secure from unauthorized login access and provides a more secure system for users. When the user enters the correct User Name or password, the user is directed to the relevant role's main portal. When a user logs in with an invalid User Name or password, it displays a dialog box with “Incorrect User Name or Password”.
+
+```
+if (userName.equals("Admin")&&(password.equals("123"))){
+            AdminMain aUI = new AdminMain();
+            aUI.setVisible(true);
+            this.setVisible(false);
+} else {
+            JOptionPane.showMessageDialog(rootPane, "Incorrect User Name or Password");
+}
+```
 
 ## User Manual
 
