@@ -107,6 +107,18 @@ if (userName.equals("Admin")&&(password.equals("123"))){
             JOptionPane.showMessageDialog(rootPane, "Incorrect User Name or Password");
 }
 ```
+The above code snippet shows how to secure a system by using an if-else condition.
+
+### System Structure
+
+The system employs a three-tier (3D) architecture, organized into User, Hospital, and Data tiers. 
+
+The User package includes graphical user interfaces. The Hospital package contains classes, which involve the Object-Oriented Programming (OOP) Principle. The Data package is responsible for the file handling process of the system. 
+
+### Role Portals
+
+After a user successfully logs in, the system will be directed to the relevant role’s Portals. That consists of the menu bar, function buttons and the Logout button. The Logout button returns to the main login screen. The function buttons are directed to the specific operation interfaces. That interface consists of the data handle buttons and the Exit button. The Exit button again returns to the relevant role’s Portals. Moreover, CRUD Operations allow a system to create, read, update and delete data effectively using GUIs. The menu bar has two menus: Help and Options. The Help menu supports opening the user manual and directs to the main login screen. The Options menu can be used to access the functions. All menu items are supported with the shortcuts.
+
 
 ## User Manual
 
