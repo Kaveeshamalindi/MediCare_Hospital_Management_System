@@ -119,6 +119,16 @@ The User package includes graphical user interfaces. The Hospital package contai
 
 After a user successfully logs in, the system will be directed to the relevant role’s Portals. That consists of the menu bar, function buttons and the Logout button. The Logout button returns to the main login screen. The function buttons are directed to the specific operation interfaces. That interface consists of the data handle buttons and the Exit button. The Exit button again returns to the relevant role’s Portals. Moreover, CRUD Operations allow a system to create, read, update and delete data effectively using GUIs. The menu bar has two menus: Help and Options. The Help menu supports opening the user manual and directs to the main login screen. The Options menu can be used to access the functions. All menu items are supported with the shortcuts.
 
+### System Time and Date
+
+That option can be displayed in the role’s main portals of the system. That will be more useful for users.
+
+```
+import java.util.Date;
+import java.text.SimpleDateFormat;
+import javax.swing.Timer;
+These packages are used for this function.
+```
 
 ## User Manual
 
