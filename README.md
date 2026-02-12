@@ -105,9 +105,9 @@ public void setPersonID(int personID) {
 
 ### Polymorphism
 
-Polymorphism refers to the idea of having many forms. This project uses method overriding and overloading. 
+<p align="justify"> Polymorphism refers to the idea of having many forms. This project uses method overriding and overloading. 
 
-In overriding, a subclass can implement a superclass method based on its requirements. That is called run-time polymorphism.
+In overriding, a subclass can implement a superclass method based on its requirements. That is called run-time polymorphism. </p>
 
 ```
 public interface IDoctor {
@@ -115,7 +115,7 @@ public interface IDoctor {
 }
 ```
 
-In the <code> IDoctor </code> interface, the abstract method <code> IDoctor </code> was used to hide information, and <code> DoctorFileDB </code> implemented it. 
+<p align="justify"> In the <code> IDoctor </code> interface, the abstract method <code> IDoctor </code> was used to hide information, and <code> DoctorFileDB </code> implemented it. </p>
 
 ```
 public class DoctorFileDB implements IDoctor {
@@ -141,17 +141,15 @@ public abstract class Person {
     private String email;
     private String address;
 
- //Constructor 1
- public Person(String lastName, String gender, int 
- contactNumber)     {
+    //Constructor 1
+    public Person(String lastName, String gender, int contactNumber) {
         this.lastName = lastName;
         this.gender = gender;
         this.contactNumber = contactNumber;
     } 
 
-	 Constructor 2 (Overloaded)
-	 public Person(String lastName, String gender, String
-    address) {
+    //Constructor 2 (Overloaded)
+    public Person(String lastName, String gender, String address) {
         this.lastName = lastName; 
         this.gender = gender;
         this.address = address;
