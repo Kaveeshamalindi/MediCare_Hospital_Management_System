@@ -159,11 +159,11 @@ public abstract class Person {
 
 ## Main Functions
 
-The system consists of login portals, main role portals, menu bars, and data input interfaces. That supports users to work easily on the MediCare Hospital Management System. 
+<p align="justify"> The system consists of login portals, main role portals, menu bars, and data input interfaces. That supports users to work easily on the MediCare Hospital Management System. </p>
 
 ### System Login
 
-The system offers separate user login options, including portals for doctors, nurses, lab technicians, and administrators. That ensures the system is secure from unauthorized login access and provides a more secure system for users. When the user enters the correct User Name or password, the user is directed to the relevant role's main portal. When a user logs in with an invalid User Name or password, it displays a dialog box with “Incorrect User Name or Password”.
+<p align="justify"> The system offers separate user login options, including portals for doctors, nurses, lab technicians, and administrators. That ensures the system is secure from unauthorized login access and provides a more secure system for users. When the user enters the correct User Name or password, the user is directed to the relevant role's main portal. When a user logs in with an invalid User Name or password, it displays a dialog box with “Incorrect User Name or Password”. </p>
 
 ```
 if (userName.equals("Admin")&&(password.equals("123"))){
@@ -178,13 +178,15 @@ The above code snippet shows how to secure a system by using an if-else conditio
 
 ### System Structure
 
-The system employs a three-tier (3D) architecture, organized into User, Hospital, and Data tiers. 
+<p align="justify"> The system employs a three-tier (3D) architecture, organized into <code> User </code>, <code> Hospital </code> and <code> Data </code> tiers. 
 
-The User package includes graphical user interfaces. The Hospital package contains classes, which involve the Object-Oriented Programming (OOP) Principle. The Data package is responsible for the file handling process of the system. 
+
+
+The <code> User </code> package includes graphical user interfaces. The <code> Hospital </code> package contains classes which involve the Object-Oriented Programming (OOP) Principle. The <code> Data </code> package is responsible for the file handling process of the system. </p>
 
 ### Role Portals
 
-After a user successfully logs in, the system will be directed to the relevant role’s Portals. That consists of the menu bar, function buttons and the Logout button. The Logout button returns to the main login screen. The function buttons are directed to the specific operation interfaces. That interface consists of the data handle buttons and the Exit button. The Exit button again returns to the relevant role’s Portals. Moreover, CRUD Operations allow a system to create, read, update and delete data effectively using GUIs. The menu bar has two menus: Help and Options. The Help menu supports opening the user manual and directs to the main login screen. The Options menu can be used to access the functions. All menu items are supported with the shortcuts.
+<p align="justify"> After a user successfully logs in, the system will be directed to the relevant role’s Portals. That consists of the menu bar, function buttons and the Logout button. The Logout button returns to the main login screen. The function buttons are directed to the specific operation interfaces. That interface consists of the data handle buttons and the Exit button. The Exit button again returns to the relevant role’s Portals. Moreover, CRUD Operations allow a system to create, read, update and delete data effectively using GUIs. The menu bar has two menus: Help and Options. The Help menu supports opening the user manual and directs to the main login screen. The Options menu can be used to access the functions. All menu items are supported with the shortcuts. </p>
 
 ### System Time and Date
 
