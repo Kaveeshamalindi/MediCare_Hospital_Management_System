@@ -109,7 +109,7 @@ public void setPersonID(int personID) {
 
 <p align="justify"> Polymorphism refers to the idea of having many forms. This project uses method overriding and overloading. 
 
-In overriding, a subclass can implement a superclass method based on its requirements. That is called run-time polymorphism. </p>
+In <B>overriding</B>, a subclass can implement a superclass method based on its requirements. That is called run-time polymorphism. </p>
 
 ```
 public interface IDoctor {
@@ -130,7 +130,7 @@ public boolean addDoctor(Doctor d) {
 }
 ```
 
-In overloading, the <code> Person </code> abstract class is defined multiple constructors with the same name but different parameters.  That is known as compile-time polymorphism.
+In <B>overloading</B>, the <code> Person </code> abstract class is defined with multiple constructors with the same name but different parameters.  That is known as compile-time polymorphism.
 
 ```
 public abstract class Person {
