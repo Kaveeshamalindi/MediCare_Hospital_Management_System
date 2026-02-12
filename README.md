@@ -9,7 +9,7 @@ The system uses the Java programming language and the Object-Oriented Programmin
 
 ## Application of Object-Oriented Programming
 
-<p align="justify"> Java is used for Object-Oriented Programming. That style is closer to the real-world scenarios, such as a Hospital Management System (HMS). The structure contains objects, classes, methods and attributes. That consists of main principles such as Object, Class, Abstraction, Inheritance, Encapsulation and Polymorphism.  </p> <br>
+<p align="justify"> Java is used for Object-Oriented Programming. That style is closer to the real-world scenarios, such as a Hospital Management System (HMS). The structure contains objects, classes, methods and attributes. That consists of main principles such as <B> Object</B>, <B> Class</B>, <B> Abstraction</B>, <B> Inheritance</B>, <B> Encapsulation</B> and <B> Polymorphism</B>.  </p> <br>
 
 <p align="center">
   <img src="Images/Picture1.png" width="400">
@@ -17,13 +17,13 @@ The system uses the Java programming language and the Object-Oriented Programmin
 
 ### Object 
 
-Objects have characteristics which are used to describe them. These characteristics are known as attributes. An attribute defines the current state of an object. 
+<p align="justify"> Objects have characteristics which are used to describe them. These characteristics are known as attributes. An attribute defines the current state of an object. </p>
 
-In this system, P is an object of the Patient class. This object contains patient-specific data.
+In this system, P is an object of the <code> Patient </code> class. This object contains patient-specific data.
 ```
 Patient p=new Patient(pID, firstName, lastName, dateOfBirth,gender, contactNumber, emergencyContact, email, address, patientID, registrationDate, bloodGroup,nallergies, insuranceInfo);
 ```
-Moreover, the code below represents a data handler object in the DoctorProfile JFrame Form. object dfDB is created from the DoctorFileDB class, which is used for handling patient-related data operations using file handling techniques. 
+Moreover, the code below represents a data handler object in the <code> DoctorProfile </code> JFrame Form. object <code> dfDB </code> is created from the DoctorFileDB class, which is used for handling patient-related data operations using file handling techniques. 
 
 ```
 dfDB=new DoctorFileDB();
