@@ -178,15 +178,17 @@ The above code snippet shows how to secure a system by using an if-else conditio
 
 ### System Structure
 
-<p align="justify"> The system employs a three-tier (3D) architecture, organized into <code> User </code>, <code> Hospital </code> and <code> Data </code> tiers. 
+<p align="justify"> The system employs a three-tier (3D) architecture, organized into <code> User </code>, <code> Hospital </code> and <code> Data </code> tiers. </p>
 
+<p align="center">
+  <img src="Images/Picture2.png" width="500">
+</p>
 
-
-The <code> User </code> package includes graphical user interfaces. The <code> Hospital </code> package contains classes which involve the Object-Oriented Programming (OOP) Principle. The <code> Data </code> package is responsible for the file handling process of the system. </p>
+<p align="justify"> The <code> User </code> package includes graphical user interfaces. The <code> Hospital </code> package contains classes which involve the Object-Oriented Programming (OOP) Principle. The <code> Data </code> package is responsible for the file handling process of the system. </p>
 
 ### Role Portals
 
-<p align="justify"> After a user successfully logs in, the system will be directed to the relevant role’s Portals. That consists of the menu bar, function buttons and the Logout button. The Logout button returns to the main login screen. The function buttons are directed to the specific operation interfaces. That interface consists of the data handle buttons and the Exit button. The Exit button again returns to the relevant role’s Portals. Moreover, CRUD Operations allow a system to create, read, update and delete data effectively using GUIs. The menu bar has two menus: Help and Options. The Help menu supports opening the user manual and directs to the main login screen. The Options menu can be used to access the functions. All menu items are supported with the shortcuts. </p>
+<p align="justify"> After a user successfully logs in, the system will be directed to the relevant role’s Portals. That consists of the menu bar, function buttons and the Logout button. The Logout button returns to the main login screen. The function buttons are directed to the specific operation interfaces. That interface consists of the data handle buttons and the Exit button. The Exit button again returns to the relevant role’s Portals. Moreover, <B>CRUD</B> Operations allow a system to create, read, update and delete data effectively using GUIs. The menu bar has two menus: Help and Options. The Help menu supports opening the user manual and directs to the main login screen. The Options menu can be used to access the functions. All menu items are supported with the shortcuts. </p>
 
 ### System Time and Date
 
