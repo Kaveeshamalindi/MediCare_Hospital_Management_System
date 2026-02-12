@@ -5,7 +5,7 @@
 ## Introduction
 
 <p align="justify"> The system is developed using a three-tier (3D) architecture, which is organized into <code> User </code>, <code> Hospital </code> and <code> Data </code>. The <code> User </code> package includes graphical user interfaces. That provides a high-level user-friendly experience for users. The <code> Hospital </code> package contains object-oriented classes, including <code> Administrator </code>, <code> Appointment </code>, <code> Bill </code>, <code> Doctor </code>, <code> Lab </code>, <code> MedicalRecord </code>, <code> MedicalStaff </code>, <code> Patient </code>, <code> Person </code>, and <code> Staff </code>. The <code> Data </code> package is responsible for file handling. However, that provides benefits including faster development, improved scalability, reliability and security in the system. <br> <br> 
-The system uses the Java programming language and the Object-Oriented Programming (OOP) principle. The solution demonstrates the application of Object, Class, Abstraction, Inheritance, Encapsulation and Polymorphism. Furthermore, the system allows handling unexpected errors using a try-catch block. </p>
+The system uses the Java programming language and the Object-Oriented Programming (OOP) principle. The solution demonstrates the application of <B> Object</B>, <B> Class</B>, <B> Abstraction</B>, <B> Inheritance</B>, <B> Encapsulation</B> and <B> Polymorphism</B>. Furthermore, the system allows handling unexpected errors using a <B> try-catch block</B>. </p>
 
 ## Application of Object-Oriented Programming
 
@@ -20,10 +20,12 @@ The system uses the Java programming language and the Object-Oriented Programmin
 <p align="justify"> Objects have characteristics which are used to describe them. These characteristics are known as attributes. An attribute defines the current state of an object. </p>
 
 In this system, P is an object of the <code> Patient </code> class. This object contains patient-specific data.
+
 ```
 Patient p=new Patient(pID, firstName, lastName, dateOfBirth,gender, contactNumber, emergencyContact, email, address, patientID, registrationDate, bloodGroup,nallergies, insuranceInfo);
 ```
-Moreover, the code below represents a data handler object in the <code> DoctorProfile </code> JFrame Form. object <code> dfDB </code> is created from the DoctorFileDB class, which is used for handling patient-related data operations using file handling techniques. 
+
+<p align="justify"> Moreover, the code below represents a data handler object in the <code> DoctorProfile </code> JFrame Form. object <code> dfDB </code> is created from the <code> DoctorFileDB </code> class, which is used for handling patient-related data operations using file handling techniques. </p>
 
 ```
 dfDB=new DoctorFileDB();
@@ -41,13 +43,25 @@ public class Appointment {
 
 ### Abstraction
 
-Data abstraction provides an essential feature to the outside without including implementation details. For example, abstraction is used in the <code> Person </code> abstract class. It provides common properties and methods to <code> Administrator </code>, <code> Doctor </code>, <code> MedicalStaff </code>, and <code> Patient </code> classes. 
+<p align="justify"> Data abstraction provides an essential feature to the outside without including implementation details. For example, abstraction is used in the <code> Person </code> abstract class. It provides common properties and methods to <code> Administrator </code>, <code> Doctor </code>, <code> MedicalStaff </code>, and <code> Patient </code> classes. </p>
 
 ```
 public abstract class Person {
 	//abstract class variables and methods
 }
 ```
+
+The <code> Ipatient </code> interface used abstraction. It does not have concrete methods and a completely abstract class that contains only abstract methods.
+
+```
+public interface Ipatient {
+	 public abstract boolean registerPatient(Patient p);
+    public abstract Patient findPatient(int pID);
+	 public abstract boolean removePatient(int pID);
+    public abstract boolean updateMedicalInfo(Patient p);
+    public abstract ArrayList<Patient> getMedicalHistory();
+}
+````
 
 ### Inheritance
 
@@ -56,6 +70,20 @@ Inheritance is the process that is used to gain properties (variables and method
 ```
 public class Administrator extends Person {
 	//subclass variables and methods
+}
+```
+In this scenario, the <code> Administrator </code> class inherits the <code> lastName </code>, <code> gender </code>, and <code> address </code> from the <code> Person </code> class.
+
+```
+public Administrator(int adminID,  String lastName, String 
+         gender, String address, String accessLevel, String 
+         department, Date hireDate, String adminType) {
+     super(lastName, gender, address); 
+	  this.adminID = adminID;
+     this.accessLevel = accessLevel;
+     this.department = department;
+     this.hireDate = hireDate;
+     this.adminType = adminType;
 }
 ```
 
