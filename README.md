@@ -5,11 +5,11 @@
 ## Introduction
 
 <p align="justify"> The system is developed using a three-tier (3D) architecture, which is organized into <code> User </code>, <code> Hospital </code> and <code> Data </code>. The <code> User </code> package includes graphical user interfaces. That provides a high-level user-friendly experience for users. The <code> Hospital </code> package contains object-oriented classes, including <code> Administrator </code>, <code> Appointment </code>, <code> Bill </code>, <code> Doctor </code>, <code> Lab </code>, <code> MedicalRecord </code>, <code> MedicalStaff </code>, <code> Patient </code>, <code> Person </code>, and <code> Staff </code>. The <code> Data </code> package is responsible for file handling. However, that provides benefits including faster development, improved scalability, reliability and security in the system. <br> <br> 
-The system uses the Java programming language and the Object-Oriented Programming (OOP) principle. The solution demonstrates the application of Object, Class, Abstraction, Inheritance, Encapsulation and Polymorphism. Furthermore, the system allows handling unexpected errors using a try-catch block </p>
+The system uses the Java programming language and the Object-Oriented Programming (OOP) principle. The solution demonstrates the application of Object, Class, Abstraction, Inheritance, Encapsulation and Polymorphism. Furthermore, the system allows handling unexpected errors using a try-catch block. </p>
 
 ## Application of Object-Oriented Programming
 
-Java is used for Object-Oriented Programming. That style is closer to the real-world scenarios, such as a Hospital Management System (HMS). The structure contains objects, classes, methods and attributes. That consists of main principles such as Object, Class, Abstraction, Inheritance, Encapsulation and Polymorphism.
+<p align="justify"> Java is used for Object-Oriented Programming. That style is closer to the real-world scenarios, such as a Hospital Management System (HMS). The structure contains objects, classes, methods and attributes. That consists of main principles such as Object, Class, Abstraction, Inheritance, Encapsulation and Polymorphism.  </p> <br>
 
 <p align="center">
   <img src="Images/Picture1.png" width="400">
