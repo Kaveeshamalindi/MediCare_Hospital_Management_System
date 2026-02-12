@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The system is developed using a three-tier (3D) architecture, which is organized into <code> User </code>, <code> Hospital </code> and <code> Data </code>. The User package includes graphical user interfaces. That provides a high-level user-friendly experience for users. The Hospital package contains object-oriented classes, including Administrator, Appointment, Bill, Doctor, Lab, MedicalRecord, MedicalStaff, Patient, Person, and Staff. The Data package is responsible for file handling. However, that provides benefits including faster development, improved scalability, reliability and security in the system 
+The system is developed using a three-tier (3D) architecture, which is organized into <code> User </code>, <code> Hospital </code> and <code> Data </code>. The <code> User </code> package includes graphical user interfaces. That provides a high-level user-friendly experience for users. The <code> Hospital </code> package contains object-oriented classes, including Administrator, Appointment, Bill, Doctor, Lab, MedicalRecord, MedicalStaff, Patient, Person, and Staff. The <code> Data </code> package is responsible for file handling. However, that provides benefits including faster development, improved scalability, reliability and security in the system 
 
 ## Application of Object-Oriented Programming
 
