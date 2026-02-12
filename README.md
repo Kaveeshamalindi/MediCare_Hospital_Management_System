@@ -56,16 +56,16 @@ The <code> Ipatient </code> interface used abstraction. It does not have concret
 ```
 public interface Ipatient {
 	 public abstract boolean registerPatient(Patient p);
-    public abstract Patient findPatient(int pID);
+     public abstract Patient findPatient(int pID);
 	 public abstract boolean removePatient(int pID);
-    public abstract boolean updateMedicalInfo(Patient p);
-    public abstract ArrayList<Patient> getMedicalHistory();
+     public abstract boolean updateMedicalInfo(Patient p);
+     public abstract ArrayList<Patient> getMedicalHistory();
 }
 ````
 
 ### Inheritance
 
-Inheritance is the process that is used to gain properties (variables and methods) from one class to another. It provides to manage information in hierarchical order. The class inheriting the properties of another is the subclass, and the class whose properties are inherited is the superclass.
+<p align="justify"> Inheritance is the process that is used to gain properties (variables and methods) from one class to another. It provides to manage information in hierarchical order. The class inheriting the properties of another is the subclass, and the class whose properties are inherited is the superclass. </p>
 
 ```
 public class Administrator extends Person {
@@ -75,11 +75,9 @@ public class Administrator extends Person {
 In this scenario, the <code> Administrator </code> class inherits the <code> lastName </code>, <code> gender </code>, and <code> address </code> from the <code> Person </code> class.
 
 ```
-public Administrator(int adminID,  String lastName, String 
-         gender, String address, String accessLevel, String 
-         department, Date hireDate, String adminType) {
+public Administrator(int adminID,  String lastName, String gender, String address, String accessLevel, String department, Date hireDate, String adminType) {
      super(lastName, gender, address); 
-	  this.adminID = adminID;
+	 this.adminID = adminID;
      this.accessLevel = accessLevel;
      this.department = department;
      this.hireDate = hireDate;
@@ -89,13 +87,17 @@ public Administrator(int adminID,  String lastName, String
 
 ### Encapsulation
 
-Encapsulation refers to wrapping data and methods into a class. The variables of one class will be hidden from the other classes and accessible only through the methods of the current class. That is called data hiding. To achieve encapsulation in this project, declare the class’s variable as private and provide public setter and getter methods to modify and view the variable’s values. 
+<p align="justify"> Encapsulation refers to wrapping data and methods into a class. The variables of one class will be hidden from the other classes and accessible only through the methods of the current class. That is called data hiding. </p>
+	
+<p align="justify"> To achieve encapsulation in this project, declare the class’s variable as private and provide public setter and getter methods to modify and view the variable’s values. For example, in the <code> Person </code> class, variables such as <code> personID </code>, <code> firstName </code>, <code> lastName </code>, <code> dateOfBirth </code>, <code> gender </code>, <code> contactNumber </code>, <code> email </code>, and <code> address </code> are declared as private. In contrast, methods are declared as public. </p>
 
 ```
 private int personID;
+
 public int getPersonID() {
         return personID;
 }
+
 public void setPersonID(int personID) {
         this.personID = personID;
 }  
@@ -113,7 +115,7 @@ public interface IDoctor {
 }
 ```
 
-In the IDoctor interface, the abstract method IDoctor was used to hide information, and DoctorFileDB implemented it. 
+In the <code> IDoctor </code> interface, the abstract method <code> IDoctor </code> was used to hide information, and <code> DoctorFileDB </code> implemented it. 
 
 ```
 public class DoctorFileDB implements IDoctor {
@@ -125,6 +127,38 @@ public boolean addDoctor(Doctor d) {
        //File Handling code with try-catch block    
 }
 ```
+
+In overloading, the <code> Person </code> abstract class is defined multiple constructors with the same name but different parameters.  That is known as compile-time polymorphism.
+
+```
+public abstract class Person {
+    private int personID;
+    private String firstName;
+    private String lastName;
+    private Date dateOfBirth;
+    private String gender;
+    private int contactNumber;
+    private String email;
+    private String address;
+
+ //Constructor 1
+ public Person(String lastName, String gender, int 
+ contactNumber)     {
+        this.lastName = lastName;
+        this.gender = gender;
+        this.contactNumber = contactNumber;
+    } 
+
+	 Constructor 2 (Overloaded)
+	 public Person(String lastName, String gender, String
+    address) {
+        this.lastName = lastName; 
+        this.gender = gender;
+        this.address = address;
+    }
+}
+````
+
 ## Main Functions
 
 The system consists of login portals, main role portals, menu bars, and data input interfaces. That supports users to work easily on the MediCare Hospital Management System. 
