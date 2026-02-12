@@ -31,7 +31,7 @@ dfDB=new DoctorFileDB();
 
 ### Class
 
-Classes can be described as a blueprint for an object. This system uses several classes, such as <code> Administrator </code>, <code> Appointment </code>, <code> Bill </code>, <code> Doctor </code>, <code> Lab </code>, <code> MedicalRecord </code>, <code> MedicalStaff </code>, <code> Patient </code>, <code> Person </code>, <code> Staff </code>, <code> AdministratorFileDB </code>, <code> AppointmentFileDB </code>, <code> BillDB </code>, <code> DoctorFileDB </code>, <code> LabFileDB </code>, <code> MedicalRecordFileDB </code>, <code> PatientFileDB </code>, and <code> StaffFileDB </code> etc. 
+<p align="justify"> Classes can be described as a blueprint for an object. This system uses several classes, such as <code> Administrator </code>, <code> Appointment </code>, <code> Bill </code>, <code> Doctor </code>, <code> Lab </code>, <code> MedicalRecord </code>, <code> MedicalStaff </code>, <code> Patient </code>, <code> Person </code>, <code> Staff </code>, <code> AdministratorFileDB </code>, <code> AppointmentFileDB </code>, <code> BillDB </code>, <code> DoctorFileDB </code>, <code> LabFileDB </code>, <code> MedicalRecordFileDB </code>, <code> PatientFileDB </code>, and <code> StaffFileDB </code> etc. </p>
 
 ```
 public class Appointment {
@@ -41,7 +41,7 @@ public class Appointment {
 
 ### Abstraction
 
-Data abstraction provides an essential feature to the outside without including implementation details. For example, abstraction is used in the Person abstract class. 
+Data abstraction provides an essential feature to the outside without including implementation details. For example, abstraction is used in the <code> Person </code> abstract class. It provides common properties and methods to <code> Administrator </code>, <code> Doctor </code>, <code> MedicalStaff </code>, and <code> Patient </code> classes. 
 
 ```
 public abstract class Person {
