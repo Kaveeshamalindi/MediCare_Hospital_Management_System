@@ -200,6 +200,13 @@ import java.text.SimpleDateFormat;
 import javax.swing.Timer;
 These packages are used for this function.
 ```
+### Overview of main functions
+
+In conclusion, the following chart represents all the functions of this MediCare Hospital Management System.
+
+<p align="center">
+  <img src="Images/Picture3.png" width="500">
+</p>
 
 ## User Manual
 
