@@ -12,7 +12,7 @@ The system uses the Java programming language and the Object-Oriented Programmin
 Java is used for Object-Oriented Programming. That style is closer to the real-world scenarios, such as a Hospital Management System (HMS). The structure contains objects, classes, methods and attributes. That consists of main principles such as Object, Class, Abstraction, Inheritance, Encapsulation and Polymorphism.
 
 <p align="center">
-  <img src="Picture1.png" width="400">
+  <img src="Images/Picture1.png" width="400">
 </p>
 
 ### Object 
