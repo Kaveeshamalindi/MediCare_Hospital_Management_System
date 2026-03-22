@@ -235,7 +235,9 @@ In conclusion, the following chart represents all the functions of this MediCare
 ## 🎮 How to Run
 
 1. Download or clone this repository
+   
 2.Open the project in **NetBeans** (or any Java IDE that supports Swing)
+
 3. Run the program
 
 ---
